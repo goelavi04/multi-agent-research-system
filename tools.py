@@ -1,7 +1,7 @@
 # tools.py
-# Gives agents the ability to search the web using DuckDuckGo
+# Gives agents the ability to search the web using DuckDuckGo (via the ddgs package)
 
-from duckduckgo_search import DDGS
+from ddgs import DDGS
 
 
 def web_search(query: str, max_results: int = 5) -> list:
